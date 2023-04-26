@@ -6,15 +6,15 @@ Most times, after creating a table, it looks jumbled and mumbled up on the scree
 
 ---
 
-On the desktop, a typical table looks like this: ![Desktop View](./images/desktop.png)
+On the desktop, a typical table looks like this: ![Desktop View](desktop.png)
 
 ---
 
-A table that is not responsive looks like this: ![Irresponsive mobile view table](./images/not_responsive.png)
+A table that is not responsive looks like this: ![Irresponsive mobile view table](not_responsive.png)
 
 ---
 
-A very neat responsive table looks like this: ![Responsive Table on a mobile device](./images/responsive.png)
+A very neat responsive table looks like this: ![Responsive Table on a mobile device](responsive.png)
 
 You'd notice from the above picture that html5 tries to handle responsiveness of the table but it's implementation of responsiceness here is poor and ugly.
 
