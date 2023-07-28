@@ -1,7 +1,14 @@
+const config = require("config");
 const express = require("express");
 const app = express();
 
 app.use(express.json());
+app.use(express.static("public"));
+
+// configurations
+console.log("Application name: " + config.get("name"));
+console.log("Application mail server: " + config.get("mail.host"));
+console.log("Application mail password: " + config.get("mail.password"));
 
 const users = [
   { id: 1, name: "John", email: "userjohn@gmail.com" },
